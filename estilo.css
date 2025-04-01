@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+    background-image:url(fotos/fondo-luces.jpg);
+    background-position: 50%;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    
+}
+
+#marcas {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+article {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 220px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#Honda {
+    top: 10px;
+    left: 10px;
+}
+
+#ford {
+    top: 10px;
+    right: 10px;
+}
+
+#chevrolet {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#dodge {
+    bottom: 10px;
+    left: 10px;
+}
+
+#ferrari {
+    bottom: 10px;
+    right: 10px;
+}
+
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+img {
+    border-radius: 10px;
+}
+
+
